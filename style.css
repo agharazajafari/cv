@@ -1,0 +1,54 @@
+.home-page {
+  height: 100vh;
+  background: #000;
+}
+
+.home-page .container {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+
+.home-page .container .home-image img {
+  height: 550px;
+}
+
+.home-page .container .home-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.home-page .container .home-text h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.home-page .container .home-text img {
+  height: 80px;
+}
+/*# sourceMappingURL=style.css.map */
